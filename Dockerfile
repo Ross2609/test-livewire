@@ -1,5 +1,6 @@
 FROM serversideup/php:8.4-unit
 
+ENV AUTORUN_ENABLED=true
 ENV HEALTHCHECK_PATH="/up"
 ENV PHP_OPCACHE_ENABLE=1
 ENV SSL_MODE="mixed"
