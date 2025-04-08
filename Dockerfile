@@ -1,4 +1,4 @@
-FROM serversideup/php:8.4-unit
+FROM serversideup/php:8.4-fpm-nginx-alpine
 
 ENV AUTORUN_ENABLED=true
 ENV HEALTHCHECK_PATH="/up"
